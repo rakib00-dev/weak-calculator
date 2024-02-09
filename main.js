@@ -5,7 +5,6 @@ function forDisplay(input) {
 }
 
 function clearDisplay() {
-  // display.value = null;
   display.value = display.value.slice(0, -1);
 }
 
