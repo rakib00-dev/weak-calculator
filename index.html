@@ -17,23 +17,28 @@
     <div id="calculator">
       <input id="display" readonly />
       <div id="keys">
-        <button onclick="forDisplay('+')" id="oparetor">+</button>
         <button onclick="forDisplay('7')">7</button>
         <button onclick="forDisplay('8')">8</button>
         <button onclick="forDisplay('9')">9</button>
-        <button onclick="forDisplay('-')" id="oparetor">-</button>
+        <button onclick="clearDisplay()" id="oparetor" class="first-oparetor">
+          <i class="fa-solid fa-delete-left"></i>
+        </button>
         <button onclick="forDisplay('4')">4</button>
         <button onclick="forDisplay('5')">5</button>
         <button onclick="forDisplay('6')">6</button>
-        <button onclick="forDisplay('*')" id="oparetor">*</button>
+        <button onclick="forDisplay('+')" id="oparetor">+</button>
         <button onclick="forDisplay('1')">1</button>
         <button onclick="forDisplay('2')">2</button>
         <button onclick="forDisplay('3')">3</button>
-        <button onclick="forDisplay('/')" id="oparetor">/</button>
-        <button onclick="forDisplay('0')">0</button>
+        <button onclick="forDisplay('-')" id="oparetor">-</button>
         <button onclick="forDisplay('.')">.</button>
+        <button onclick="forDisplay('0')">0</button>
         <button onclick="calculate()">=</button>
-        <button onclick="clearDisplay()" id="oparetor">C</button>
+        <button onclick="forDisplay('*')" id="oparetor">*</button>
+        <button onclick="clearAllDisplay()" id="oparetor" class="oparetor6">
+          AC
+        </button>
+        <button onclick="forDisplay('/')" id="oparetor">/</button>
       </div>
     </div>
 

@@ -20,14 +20,18 @@ body {
   padding: 20px;
   background-color: hsl(0, 0%, 15%);
   font-size: 2rem;
+  border-right: none;
+  border-bottom: 2px solid #7e7d7d8f;
 }
 
 #keys {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(4, 0fr);
   gap: 18px;
   padding: 18px;
   justify-content: center;
+  bottom: -72px;
 }
 
 button {
@@ -40,6 +44,7 @@ button {
   font-size: 26px;
   font-weight: 900;
   cursor: pointer;
+  user-select: none;
 }
 
 button:hover {
@@ -52,6 +57,24 @@ button:active {
 
 #oparetor {
   background-color: hsl(36, 100%, 48%);
+}
+
+#oparetor:last-child {
+  position: relative;
+  top: -284px;
+  right: -142px;
+}
+
+.oparetor6 {
+  font-size: 20px;
+  position: relative;
+  top: -353px;
+  right: -142px;
+}
+
+.first-oparetor {
+  position: relative;
+  bottom: 70px;
 }
 
 #oparetor:hover {
