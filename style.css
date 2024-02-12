@@ -11,6 +11,7 @@ body {
   background-color: hsl(0, 0%, 18%);
   border-radius: 15px;
   overflow: hidden;
+  box-shadow: 1px 2px 13px 2px #969696;
 }
 
 #display {
@@ -45,14 +46,17 @@ button {
   font-weight: 900;
   cursor: pointer;
   user-select: none;
+  box-shadow: 2px 2px 6px black;
 }
 
 button:hover {
   background-color: hsl(0, 0%, 40%);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.489);
 }
 
 button:active {
   background-color: hsl(0, 0%, 45%);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.128);
 }
 
 #oparetor {
