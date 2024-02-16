@@ -19,3 +19,14 @@ function calculate() {
     display.value = 'Syntax Error';
   }
 }
+
+window.addEventListener('keydown', (event) => {
+  switch (event.key) {
+    case '8':
+      display.value = '8';
+      break;
+
+    default:
+      break;
+  }
+});
