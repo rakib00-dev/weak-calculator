@@ -76,8 +76,5 @@ window.addEventListener('keydown', (event) => {
     case 'Enter':
       calculate();
       break;
-
-    default:
-      break;
   }
 });
