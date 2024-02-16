@@ -55,6 +55,27 @@ window.addEventListener('keydown', (event) => {
     case '.':
       display.value += '.';
       break;
+    case 'Backspace':
+      display.value = display.value.slice(0, -1);
+      break;
+    case 'Delete':
+      display.value = null;
+      break;
+    case '+':
+      display.value += '+';
+      break;
+    case '-':
+      display.value += '-';
+      break;
+    case '/':
+      display.value += '/';
+      break;
+    case '*':
+      display.value += '*';
+      break;
+    case 'Enter':
+      calculate();
+      break;
 
     default:
       break;
