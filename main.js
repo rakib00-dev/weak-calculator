@@ -78,3 +78,11 @@ window.addEventListener('keydown', (event) => {
       break;
   }
 });
+
+alert(
+  ' Your Can Use The Keyboard For Input \n \
+* EnterKey for calculation. \n \
+* DeleteKey for AC. \n \
+* BackspaceKey for remove element. \n \
+* And the number and the oparetor symbol for number and oparetor input.'
+);
