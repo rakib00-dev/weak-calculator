@@ -80,7 +80,7 @@ window.addEventListener('keydown', (event) => {
 });
 
 alert(
-  'Hey, Welcome Genius!! 🧑🏽‍💻  \n\
+  'Hey, Welcome Genius!! 🧑🏽‍💻  \n \
 Your Can Use The Keyboard For Input \n \
  # EnterKey for calculation. \n \
  # DeleteKey for AC. \n \
