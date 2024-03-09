@@ -95,3 +95,7 @@ button:active {
 #oparetor:active {
   background-color: hsl(36, 100%, 70%);
 }
+
+::selection {
+  background: red;
+}
